@@ -21,11 +21,11 @@ on:
       
       appBundleId:
         description: 'AppStore Bundle-ID (needed when using non-*_id operations)'
-        required: false
+        required: true
       appCountry:
         description: 'AppStore Country (needed when using non-*_id operations)'
-        required: false
-        default: 'JP'
+        required: true
+        default: 'US'
       
       appVerId:
         description: 'App Version Id Number (for downloading history versions)'
